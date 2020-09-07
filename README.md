@@ -4,7 +4,7 @@ The four scripts in this repository allow you to generate your own cone dataset 
 I also have a dataset of 1005 stereo images generated. ([SyntheticConeDataset 1005](https://drive.google.com/file/d/1LVOSLRbuit5ZqfCRxZUYPna7gSNEcelr/view?usp=sharing))
 
 <p align="center">
-  <img src="docs/video.gif" alt="video explanation gif" width="600" />
+  <img src="docs/video.gif" alt="video explanation gif" width="100%" />
 </p>
 
 ## :selfie:Credit
@@ -22,7 +22,7 @@ To have a set of data similar to reality where to test different algorithms or t
 As in the figure below, the "StereoCam" object contains two cameras and the "ConeGenerator" and "DatasetGenerator" scripts. 
 
 <p align="center">
-  <img src="docs/gameobject.png" alt="structure" width="600" />
+  <img src="docs/gameobject.png" alt="structure" width="200" />
 </p>
 
 ### The "ConeGenerator" script:
@@ -44,8 +44,8 @@ When the "p" key is pressed, two images are generated, one for each camera and t
   * Size (sizew, sizeh, sizel) or (width, height, length) in meters.
   
 <p align="center">
-  <img src="docs/left2.jpg" alt="leftCamera" />
-  <img src="docs/right2.jpg" alt="rightCamera" />
+  <img src="docs/left2.jpg" alt="leftCamera" width="49%"/>
+  <img src="docs/right2.jpg" alt="rightCamera" width="49%"/>
 </p>
 
 Left camera:
